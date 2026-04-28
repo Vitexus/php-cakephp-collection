@@ -1,0 +1,16 @@
+Source: php-cakephp-collection
+Section: php
+Priority: optional
+Maintainer: CyberVitexus <cybervitexus@gmail.com>
+Build-Depends: debhelper-compat (= 13), jq
+Standards-Version: 4.6.2
+Homepage: https://cakephp.org
+Vcs-Git: https://github.com/Vitexus/php-cakephp-collection.git
+Rules-Requires-Root: no
+
+Package: php-cakephp-collection
+Architecture: all
+Depends: ${misc:Depends}, php-cli | php, composer
+Description: CakePHP Collection - work with arrays and iterators
+ Work easily with arrays and iterators by having a battery of utility
+ traversal methods provided by the CakePHP framework.
